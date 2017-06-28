@@ -1,8 +1,11 @@
 module.exports = {
   "extends": "airbnb-base",
   "plugins": [
-    "import"
+    "import",
   ],
+  "env": {
+    "browser": "true",
+  },
   "rules": {
     "max-len": ["error", 120],
     "object-curly-spacing": "off",
