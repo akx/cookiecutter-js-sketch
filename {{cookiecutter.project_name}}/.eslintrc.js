@@ -7,9 +7,6 @@ module.exports = {
     "browser": "true",
   },
   "rules": {
-    "max-len": ["error", 120],
-    "object-curly-spacing": "off",
-    "no-mixed-operators": "off",
     "arrow-parens": "off",
     "comma-dangle": [
       "error", {
@@ -18,7 +15,11 @@ module.exports = {
         "imports": "always-multiline",
         "exports": "always-multiline",
         "functions": "ignore",
-      }
+      },
     ],
+    "max-len": ["error", 120],
+    "no-mixed-operators": "off",
+    "no-plusplus": "off",
+    "object-curly-spacing": "off",
   },
 };
