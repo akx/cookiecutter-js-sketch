@@ -15,9 +15,9 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
-      {
-        test: /\.woff$/,
-        use: ['url-loader'],
+{
+        test: /\.(woff|png|jpg|jpeg|gif)$/,
+        use: ['url-loader?limit=50000'],
       },
       {
         test: /.js$/,
